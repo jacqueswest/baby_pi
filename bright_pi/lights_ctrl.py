@@ -29,7 +29,7 @@ def all_leds_off():
 
 
 def full_gain_all_leds():
-    call([args[0], args[1], args[2], args[3], "0x09", "0x00"])
+    call([args[0], args[1], args[2], args[3], "0x09", "0x0f"])
 
 
 def full_bright_all_white_leds():
