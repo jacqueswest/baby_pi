@@ -1,6 +1,6 @@
 ### RaspberryPI Baby-monitor
 
-This project helps me and my wife manage checking on our baby remotely in case either of us can't keep an eye on him. Feed from an attached camera module is live streamable through the Pi server. Both the camera and the infra-red LEDs, which provide ample lighting in the dark. The server, the camera and the IR lighting module controllers are all written in Python. A simple Android application (not yet included in this repo) allows my wife to control the baby-monitor by sending module-control commands to the device through ssh.
+This project helps me and my wife manage checking on our baby remotely in case either of us can't keep an eye on him. Feed from an attached camera module is live streamable through the Pi server. The server, the camera and the IR lighting module (which provides ample lighting in the dark) controllers are all written in Python. A simple Android application (not yet included in this repo) allows my wife to control the baby-monitor by sending module-control commands to the device through ssh.
 
 ## Hardware
 
